@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  background-color: #e38826;
+  width: 100%;
+  padding: 48px;
+}
+
+.card h1 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  margin: 28px 0;
+  font-size: 40px;
+  color: #f2f2f2;
+}
+
+.card p {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 25px;
+  margin-bottom: 84px;
+  font-size: 15px;
+}
+
+.card a {
+  display: block;
+  text-align: center;
+  background-color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  color: #e38826;
+  border-radius: 25px;
+  text-decoration: none;
+  width: 148px;
+  height: 48px;
+  line-height: 44px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card a:hover {
+  color: #f2f2f2 !important;
+  background: none;
+}
+
+.card:nth-child(2) {
+  background: #006970;
+}
+
+.card:nth-child(2) a {
+  color: #006970;
+}
+
+.card:nth-child(3) {
+  background: #004241;
+}
+
+.card:nth-child(3) a {
+  color: #004241;
+}
+
+@media (min-width: 780px) {
+  main {
+    max-width: 920px;
+    width: 96%;
+    border-radius: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+}
+
+/*  Attribution*/
+footer {
+  position: absolute;
+  background: white;
+  padding: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
